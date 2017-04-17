@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Vallender Lab Apps</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="homepage-files/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="homepage-files/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="homepage-files/css/agency.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+    
+    <style>
+    .fa-stack:hover  .fa.fa-circle-thin { color: black; }
+    .fa-stack:hover  .fa.fa-circle { opacity:1.0; color:black;}
+    </style>
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Vallender Lab Apps</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#apps">Apps</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">Welcome To Our Apps Homepage</div>
+                <a href="#apps" class="page-scroll btn btn-xl">Learn More</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Apps Section -->
+    <section id="apps">
+        <div class="container">
+          <!-- Row 1 of Apps -->
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Apps</h2>
+                    <h3 class="section-subheading text-muted">Here are a few apps we've created or are hosting on our server.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <a href="GPCR-App/" onclick="window.open(this.href); return false;" 
+                        onkeypress="window.open(this.href); return false;"><i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="service-heading">GPCR App</h4>
+                    <p class="text-muted">This app is our first major release. It helps to visualize the genetic data produced from orthologous 
+                    alignments/phylogenetic analysis of GPCR and related genes.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <a href="HALL-App/" onclick="window.open(this.href); return false;" 
+                        onkeypress="window.open(this.href); return false;"><i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="service-heading">Hall App</h4>
+                    <p class="text-muted">The Hall Project App is a meta analysis using the tools from the GPCR Orthologs Project. 
+                    One of our collaborators took an interest in the APOL-1 gene, and we used the tools from our GPCR app to fetch data/analysis. 
+                    This app is still under development.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <a href="public-ftp/" onclick="window.open(this.href); return false;" 
+                        onkeypress="window.open(this.href); return false;"><i class="fa fa-folder-open fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="service-heading">Public FTP</h4>
+                    <p class="text-muted">Check out this repository which features our datasets and source code in downloadable chunks.</p>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <!-- Row 2 of Apps -->
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <a href="TryMarkdown/" onclick="window.open(this.href); return false;" 
+                        onkeypress="window.open(this.href); return false;"><i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="service-heading">Try Markdown</h4>
+                    <p class="text-muted"> This app allows users to interactively view, edit, and save Markdown formatted text. 
+                    It's not an original app, but we have edited for our use and public use.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <a href="Genetic-Metrics-App/" onclick="window.open(this.href); return false;" 
+                        onkeypress="window.open(this.href); return false;"><i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="service-heading">Genetics Metrics</h4>
+                    <p class="text-muted">The Genetics Metrics application is a R-shiny app created by the Oregon National
+                                                  Primate Research Center.  It was created for individuals to host/visualize genetics data locally.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <a href="Phyloseq-App/" onclick="window.open(this.href); return false;" 
+                        onkeypress="window.open(this.href); return false;"><i class="fa fa-mobile-phone fa-stack-1x fa-inverse"></i></a>
+                    </span>
+                    <h4 class="service-heading">Phyloseq App</h4>
+                    <p class="text-muted">Shiny-phyloseq is an interactive web application that provides a graphical user interface to the microbiome 
+                    analysis package for R, called phyloseq.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                </div>
+            </div>
+            <br/>
+            
+            <!-- Rob's Section -->
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="homepage-files/img/team/rg.jpg" class="img-responsive img-circle" alt=""> <!-- Photo-->
+                        <h4>Robert Gilmore</h4> <!-- Name -->
+                        <p class="text-muted">Python Guru & Back-end Developer</p> <!-- Job Title -->
+                        
+                        <ul class="list-inline social-buttons"> <!-- Social Links -->
+                            <li><a href="https://www.linkedin.com/in/robert-gilmore-7b451592/" onclick="window.open(this.href); return false;" 
+                            onkeypress="window.open(this.href); return false;"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="mailto:robgilmore127@gmail.com"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="https://github.com/robear22890" onclick="window.open(this.href); return false;" 
+                            onkeypress="window.open(this.href); return false;"><i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Shaurita's Section -->
+                <div class="col-sm-6">
+                    <div class="team-member">
+                        <img src="homepage-files/img/team/sdh.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Shaurita Hutchins</h4>
+                        <p class="text-muted">Pythonista & Front-end Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://www.linkedin.com/in/sdhutchins/" onclick="window.open(this.href); return false;" 
+                            onkeypress="window.open(this.href); return false;"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                            <li><a href="mailto:sdhutchins@outlook.com"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li><a href="https://github.com/sdhutchins" onclick="window.open(this.href); return false;" 
+                            onkeypress="window.open(this.href); return false;"><i class="fa fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Feel free to email us or connect with us on Linkedin or Github to see the latest projects we're working on 
+                    as individuals and as a team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Vallender Lab 2017</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://vallendergenetics.signup.team/" onclick="window.open(this.href); return false;" 
+                        onkeypress="window.open(this.href); return false;"><i class="fa fa-slack"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="homepage-files/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="homepage-files/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" 
+    integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="homepage-files/js/jqBootstrapValidation.js"></script>
+    <script src="homepage-files/js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="homepage-files/js/agency.min.js"></script>
+
+</body>
+
+</html>
