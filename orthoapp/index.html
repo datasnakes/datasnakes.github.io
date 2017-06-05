@@ -4,8 +4,49 @@
         <title>Orthologs App</title>
     </head>
     <body>
-        <div id="content">
-            <iframe width="100%" height="100%" frameborder="0" src="http://162.243.56.106/shiny/Orthologs-App-Demo/" allowfullscreen="allowfullscreen"></iframe>
-        </div>
+    <iframe id="embedded-app" src="http://162.243.56.106/shiny/Orthologs-App-Demo/" frameborder="0" width="100%"></iframe>
+<script>
+(function() {
+  ////////////////////////////////////////////
+  // CONFIGURE THESE TO MATCH YOUR USE CASE //
+  ////////////////////////////////////////////
+
+  // this should be the root URL of the child frame (Shiny app) which you want
+  // to allow to send messages to the parent
+  var allowedOrigin = "http://162.243.56.106/shiny/Orthologs-App-Demo/"
+
+  ///////////////////////
+  // END CONFIGURATION //
+  ///////////////////////
+
+  var embeddedApp = document.getElementById("embedded-app");
+
+  function resizeIframe(pixels) {
+      embeddedApp.style.height = pixels + "px";
+  }
+
+  // cross-browser compatible infrastructure
+  var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+  var eventer = window[eventMethod];
+  var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+  // listen to message from iframe
+  eventer(messageEvent, function(e) {
+    if (e.origin === allowedOrigin) {
+      var key = e.message ? "message" : "data";
+      var data = e[key];
+      resizeIframe(data);
+    } else {
+      console.log("Was expecting a message from " + allowedOrigin + ", got " + e.origin + " instead.");
+    }
+  }, false);
+
+  // send message to iframe on window resize
+  window.onresize = function() {
+    embeddedApp.contentWindow.postMessage("parentWindowResized", "*");
+  };
+})();
+</script>
+
     </body>
 </html>
