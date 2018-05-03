@@ -237,6 +237,14 @@ header {
   text-align: center;
   color: white;
 }
+
+@media (max-width: 768px) {
+  header {
+    display: none
+  }
+}
+
+
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
