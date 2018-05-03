@@ -109,6 +109,8 @@ fieldset[disabled] .btn-primary.active {
   border-radius: 3px;
   font-size: 18px;
   padding: 20px 40px;
+  white-space: normal;
+  word-wrap: break-word;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -237,13 +239,6 @@ header {
   text-align: center;
   color: white;
 }
-
-@media (max-width: 768px) {
-  header {
-    display: none
-  }
-}
-
 
 header .intro-text {
   padding-top: 100px;
