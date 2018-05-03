@@ -155,13 +155,18 @@
   filter: none;
 }
 .fa-stack {
-  position: relative;
-  display: inline-block;
-  width: 2em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: middle;
+     position: relative;
+     display: inline-block;
+     width: 2em;
+     height: 2em;
+     line-height: 2em;
+     vertical-align: middle;
 }
+.fa-stack:hover {
+     color: #99e166;
+     opacity: 1.0;
+}
+
 .fa-stack-1x,
 .fa-stack-2x {
   position: absolute;
