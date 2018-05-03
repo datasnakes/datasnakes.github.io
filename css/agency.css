@@ -11,8 +11,9 @@ body {
   color: #777777;
 }
 .text-primary {
-  color: #fed136;
+  color: black;
 }
+
 p {
   font-size: 14px;
   line-height: 1.75;
