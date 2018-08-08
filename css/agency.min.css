@@ -4,11 +4,11 @@
 }
 body{
     overflow-x:hidden;
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     webkit-tap-highlight-color:#99e166
 }
 .btn-primary,.btn-xl,h1,h2,h3,h4,h5,h6{
-    font-family: "Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700
 }
@@ -91,7 +91,7 @@ a.active,a:active,a:focus,a:hover{
     color:#99e166
 }
 .navbar-custom .nav li a,.navbar-custom .navbar-toggle{
-    font-family: "Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     color:#fff;
     text-transform:uppercase
 }
@@ -166,14 +166,14 @@ header .intro-text{
     padding-bottom:50px
 }
 header .intro-text .intro-lead-in{
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style:italic;
     font-size:22px;
     line-height:22px;
     margin-bottom:25px
 }
 header .intro-text .intro-heading{
-    font-family: "Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     font-size:50px;
@@ -186,14 +186,14 @@ header .intro-text .intro-heading{
         padding-bottom:200px
     }
     header .intro-text .intro-lead-in{
-        font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-style:italic;
         font-size:40px;
         line-height:40px;
         margin-bottom:25px
     }
     header .intro-text .intro-heading{
-        font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
         text-transform:uppercase;
         font-weight:700;
         font-size:75px;
@@ -202,7 +202,7 @@ header .intro-text .intro-heading{
     }
 }
 #portfolio .portfolio-item .portfolio-caption p,section h3.section-subheading{
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style:italic
 }
 section{
@@ -283,7 +283,7 @@ section h3.section-subheading{
     margin:0
 }
 footer span.copyright,footer ul.quicklinks{
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif
 }
 #portfolio *{
     z-index:2
@@ -500,25 +500,25 @@ section#contact .form-control:focus{
     box-shadow:none
 }
 section#contact ::-webkit-input-placeholder{
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#eee
 }
 section#contact :-moz-placeholder{
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#eee
 }
 section#contact ::-moz-placeholder{
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#eee
 }
 section#contact :-ms-input-placeholder{
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform:uppercase;
     font-weight:700;
     color:#eee
@@ -588,7 +588,7 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 }
 .portfolio-modal .modal-content p.item-intro{
     margin:20px 0 30px;
-    font-family:"Encode Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Sunflower","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style:italic;
     font-size:16px
 }
