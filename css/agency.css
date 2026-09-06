@@ -370,6 +370,84 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+#git .section-subheading,
+#team .section-heading {
+  margin-bottom: 48px;
+}
+
+/* Project cards prioritize descriptions and useful destinations over large icons. */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+.project-card {
+  display: flex;
+  min-width: 0;
+  padding: 24px;
+  flex-direction: column;
+  text-align: left;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.project-card .service-heading {
+  margin: 0 0 14px;
+}
+.project-card > p {
+  margin: 0 0 22px;
+  flex-grow: 1;
+}
+.project-card > p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.project-links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+.project-link {
+  display: inline-flex;
+  min-height: 44px;
+  padding: 8px 12px;
+  align-items: center;
+  gap: 7px;
+  color: #2f6f1f;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  background-color: #f3f8f1;
+  border: 1px solid #d5e4cf;
+  border-radius: 4px;
+}
+.project-link:hover,
+.project-link:focus,
+.project-link:active {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #2f6f1f;
+  border-color: #2f6f1f;
+}
+
+@media (max-width: 991px) {
+  .project-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+  .project-card {
+    padding: 20px;
+  }
+}
 @media (min-width: 768px) {
   section {
     padding: 150px 0;

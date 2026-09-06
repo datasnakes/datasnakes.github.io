@@ -94,7 +94,7 @@
                         <a class="page-scroll" href="#about">What We Do</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#git">Github Projects</a>
+                        <a class="page-scroll" href="#git">GitHub Projects</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Team</a>
@@ -152,44 +152,41 @@
         </div>
     </section>
 
-    <!-- Github Projects Section -->
+    <!-- GitHub Projects Section -->
     <section id="git" class="bg-light-gray">
         <div class="container">
             <!-- Row 1 of Projects-->
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Github Projects</h2>
-                    <h3 class="section-subheading text-muted">Here are a few of our github projects.</h3>
+                    <h2 class="section-heading">GitHub Projects</h2>
+                    <h3 class="section-subheading text-muted">Here are a few of our GitHub projects.</h3>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-sm-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <a href="https://www.getberi.site/" onclick="window.open(this.href); return false;"
-                        onkeypress="window.open(this.href); return false;"><i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                    <h4 class="service-heading">beRi</h4>
+            <div class="project-grid">
+                <article class="project-card">
+                    <h3 class="service-heading">beRi</h3>
                     <p class="text-muted">beRi is a set of Python packages which is composed of an R virtual environment manager (<a href="https://github.com/datasnakes/renv">renv</a>), an R installation manager (<a href="https://github.com/datasnakes/rinse">rinse</a>), and an R utility tool for installing and managing R packages and R package libraries (<a href="https://github.com/datasnakes/rut">rut</a>).</p>
-                </div>
-                <div class="col-sm-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <a href="OrthoEvolution/" onclick="window.open(this.href); return false;"
-                        onkeypress="window.open(this.href); return false;"><i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                    <h4 class="service-heading">OrthoEvolution</h4>
-                    <p class="text-muted">OrthoEvolution is an easy to use and comprehensive python package which aids in the analysis and visualization of orthologous genes.</p>
-                </div>
-                <div class="col-sm-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <a href="htseq-count-cluster/" onclick="window.open(this.href); return false;"
-                        onkeypress="window.open(this.href); return false;"><i class="fa fa-github fa-stack-1x fa-inverse"></i></a>
-                    </span>
-                    <h4 class="service-heading">htseq-count-cluster</h4>
-                    <p class="text-muted">A python cli/wrapper for running multiple qsub jobs with HTSeq's htseq-count script on a SGE/SGI cluster.</p>
-                </div>
+                    <div class="project-links">
+                        <a class="project-link" href="https://datasnakes.github.io/get-beri/" target="_blank" rel="noopener noreferrer"><i class="fa fa-book" aria-hidden="true"></i>Project site</a>
+                        <a class="project-link" href="https://github.com/datasnakes/beRi" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h3 class="service-heading">OrthoEvolution</h3>
+                    <p class="text-muted">OrthoEvolution is an easy to use and comprehensive Python package which aids in the analysis and visualization of orthologous genes.</p>
+                    <div class="project-links">
+                        <a class="project-link" href="https://datasnakes.github.io/OrthoEvolution/" target="_blank" rel="noopener noreferrer"><i class="fa fa-book" aria-hidden="true"></i>Documentation</a>
+                        <a class="project-link" href="https://github.com/datasnakes/OrthoEvolution" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <h3 class="service-heading">htseq-count-cluster</h3>
+                    <p class="text-muted">A Python CLI/wrapper for running multiple qsub jobs with HTSeq's htseq-count script on a SGE/SGI cluster.</p>
+                    <div class="project-links">
+                        <a class="project-link" href="https://htseq-count-cluster.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer"><i class="fa fa-book" aria-hidden="true"></i>Documentation</a>
+                        <a class="project-link" href="https://github.com/datasnakes/htseq-count-cluster" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i>GitHub</a>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
