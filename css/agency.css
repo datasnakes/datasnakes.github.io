@@ -901,6 +901,15 @@ body {
 }
 
 /* Accessibility refinements preserve the original Agency theme and typography. */
+.service-heading,
+.team-member h3 {
+  font-size: 20px;
+}
+.team-member h3 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
 .skip-link {
   position: fixed;
   top: 10px;
@@ -975,9 +984,69 @@ ul.social-buttons li a:active {
   color: #222222;
 }
 
+/* Cards add subtle structure without changing the two-column team layout. */
+#team .team-member {
+  max-width: 400px;
+  min-height: 420px;
+  margin: 0 auto 24px;
+  padding: 22px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+#team .team-member img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: rgba(34, 34, 34, 0.78);
+  }
+}
+
+@media (max-width: 991px) {
+  .about-topics ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  #about {
+    padding: 56px 0;
+  }
+  #git,
+  #team {
+    padding: 56px 0;
+  }
+  .about-logo {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 20px;
+  }
+  #about .section-heading {
+    margin-bottom: 24px;
+  }
+  #git .section-subheading,
+  #team .section-heading {
+    margin-bottom: 36px;
+  }
+  .about-topics {
+    padding: 0;
+  }
+  .about-topics ul {
+    grid-template-columns: 1fr;
+  }
+  .about-achievement-card {
+    margin-top: 24px;
+  }
+  section h2.section-heading {
+    font-size: 32px;
+  }
+  #team .team-member {
+    min-height: 0;
   }
 }
 
