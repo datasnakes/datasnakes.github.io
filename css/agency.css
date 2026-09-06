@@ -1060,3 +1060,116 @@ ul.social-buttons li a:active {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* The footer echoes the navigation while keeping contact details easy to find. */
+.site-footer {
+  padding: 48px 0 24px;
+  color: #eeeeee;
+  background-color: #222222;
+  text-align: left;
+}
+.footer-main {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+.site-footer .footer-brand > a {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 28px;
+  text-decoration: none;
+}
+.site-footer .footer-brand > a:hover,
+.site-footer .footer-brand > a:focus {
+  color: #99e166;
+}
+.footer-brand p,
+.footer-contact p {
+  margin: 10px 0 0;
+  color: #eeeeee;
+}
+.footer-nav h2,
+.footer-contact h2 {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-nav li + li {
+  margin-top: 8px;
+}
+.site-footer a {
+  color: #99e166;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+  color: #fed136;
+}
+.footer-contact .social-buttons {
+  margin: 10px 0 0;
+  padding: 0;
+}
+.footer-contact .social-buttons li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background-color: transparent;
+  border: 0;
+  text-decoration: none;
+}
+.footer-contact .social-buttons li a i {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+  border: 1px solid #666666;
+  border-radius: 50%;
+  transition: background-color 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease;
+}
+.footer-contact .social-buttons li a:hover,
+.footer-contact .social-buttons li a:focus,
+.footer-contact .social-buttons li a:active {
+  background-color: transparent;
+  border-color: transparent;
+  text-decoration: none;
+}
+.footer-contact .social-buttons li a:hover i,
+.footer-contact .social-buttons li a:focus i,
+.footer-contact .social-buttons li a:active i {
+  color: #222222;
+  background-color: #fed136;
+  border-color: #fed136;
+}
+.footer-bottom {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #555555;
+}
+.footer-bottom p {
+  margin: 0;
+  color: #cccccc;
+  font-size: 14px;
+}
+
+@media (max-width: 767px) {
+  .site-footer {
+    padding-top: 32px;
+  }
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .footer-bottom {
+    margin-top: 16px;
+  }
+}
