@@ -19,7 +19,15 @@
     <meta name="twitter:site" content="@datasnakes">
 
 
-    <script type="application/ld+json" src="js/schema.js"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Datasnakes",
+      "url": "https://www.datasnakes.org/",
+      "logo": "https://www.datasnakes.org/img/logo.png"
+    }
+    </script>
     <title>Datasnakes | Welcome to our site!</title>
 
     <!-- Bootstrap Core CSS -->
@@ -32,14 +40,10 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Encode+Sans+Condensed|Exo+2|Jura|Sunflower:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:400,700%7CKaushan+Script" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,12 +68,14 @@
 
 <body id="page-top" class="index">
 
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">Datasnakes</a>
@@ -104,11 +110,13 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-heading"></div>
+                <h1 class="intro-heading sr-only">Datasnakes</h1>
                 <a href="#about" class="page-scroll btn btn-xl">Learn More</a>
             </div>
         </div>
     </header>
+
+    <main id="main-content" tabindex="-1">
 
     <!-- What We Do Section -->
     <section id="about">
@@ -284,9 +292,8 @@
             </div>
         </div>
     </section>
-    <br/>
-    <br/>
-    <footer>
+    </main>
+    <footer class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -320,7 +327,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Theme JavaScript -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/agency.js"></script>
 
 </body>
 
