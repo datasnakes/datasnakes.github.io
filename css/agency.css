@@ -289,6 +289,79 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
+/* A narrower reading measure and left alignment make the about copy easier to scan. */
+#about {
+  padding: 80px 0;
+}
+#git,
+#team {
+  padding: 80px 0;
+}
+#about .section-heading {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.about-logo {
+  display: block;
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 24px;
+}
+.about-content {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: left;
+}
+.about-content > p {
+  margin-bottom: 20px;
+}
+.about-topics-intro {
+  margin-bottom: 12px !important;
+}
+.about-topics {
+  padding: 0;
+}
+.about-topics ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.about-topics li {
+  padding: 16px;
+  line-height: 1.5;
+  background-color: #f3f8f1;
+  border: 1px solid #d5e4cf;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.about-topics li + li {
+  margin-top: 0;
+}
+.about-achievement-card {
+  margin-top: 28px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.about-highlight {
+  margin: 0 0 18px;
+}
+.about-achievement-card .twitter-tweet {
+  margin: 0 !important;
+  padding: 0;
+  border-left: 0;
+}
+.about-content a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
 section h3.section-subheading {
   font-size: 16px;
   font-family: "Encode Sans Condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
